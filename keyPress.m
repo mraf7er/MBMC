@@ -4,7 +4,7 @@ global mouse Timer Xm Ym Zm SURF HCONTOUR;
 AXES = handles{1};
 OBJ = handles{2};
 
-        
+
 switch event.Key
     case 'c'
         set(AXES, 'Visible', 'off');
@@ -13,6 +13,9 @@ switch event.Key
     case 'v'
         set(AXES, 'Visible', 'on');
         set(SURF, 'Visible', 'on');
+        view(2); %az = 0, el = 90
+    case 'b'
+        set(AXES, 'Visible', 'on');
         set(HCONTOUR, 'Visible', 'on');
         view(2); %az = 0, el = 90
     case 'm'
