@@ -56,6 +56,7 @@ handles.output = hObject;
 
 dev = sensorgroup('AppleMobile');
 
+
 global SURF HCONTOUR;
 
 var=500;
