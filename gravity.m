@@ -86,6 +86,7 @@ end
 SURF = surf(z);
 hold on;
 [~, HCONTOUR] = contour(z);
+% colormap gray;
 set(SURF, 'Visible', 'off');
 set(HCONTOUR, 'Visible', 'off');
 set(handles.axes, 'Visible', 'off');
